@@ -13,6 +13,8 @@ public class MyFirstHash {
 		System.out.println(h.size());
 		
 		System.out.println(h);
+		
+		System.out.println(h.contains("Spider"));
 	}
 
 }
