@@ -1,4 +1,5 @@
 import java.util.HashSet;
+import java.util.Iterator;
 
 public class MyFirstHash {
 
@@ -19,7 +20,7 @@ public class MyFirstHash {
 		
 		System.out.println(h.isEmpty());
 		*/
-		
+		/*
 		HashSet<Integer> hashb = new HashSet<Integer>();
 		hashb.add(11);
 		hashb.add(44);
@@ -27,6 +28,17 @@ public class MyFirstHash {
 		
 		Object [] h = hashb.toArray();
 		System.out.println(h[0]);
+		*/
+		
+		HashSet<Integer> hashb = new HashSet<Integer>();
+		hashb.add(14);
+		hashb.add(44);
+		hashb.add(77);
+		
+		Iterator<Integer> it = hashb.iterator();
+		while(it.hasNext()) {
+			System.out.println(it.next());
+		}
 	}
 
 }
